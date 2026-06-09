@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dynamic Webcam Dashboard</title>
+    <title>Wellington region webcams</title>
     <style>
         body, html {
             margin: 0; 
@@ -100,64 +100,72 @@
         </div>
         
         <div class="cam-container" id="pane2">
-            <a href="https://www.youtube.com/embed/QmAEV9sFDtY" target="_blank" class="label">Wellington Harbour</a>
+            <a href="https://www.youtube.com/embed/f8BC5jHXZMA" target="_blank" class="label">Lyall Bay Surf</a>
             <div class="fullscreen-btn" onclick="toggleFullScreen('pane2')" title="Fullscreen">
+                <svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/></svg>
+            </div>
+            <iframe class="direct-feed" src="https://www.youtube.com/embed/f8BC5jHXZMA" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        
+        <div class="cam-container" id="pane3">
+            <a href="https://www.youtube.com/embed/QmAEV9sFDtY" target="_blank" class="label">Wellington Harbour</a>
+            <div class="fullscreen-btn" onclick="toggleFullScreen('pane3')" title="Fullscreen">
                 <svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/></svg>
             </div>
             <iframe class="direct-feed" src="https://www.youtube.com/embed/QmAEV9sFDtY" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         
-        <div class="cam-container" id="pane3">
+        <div class="cam-container" id="pane4">
             <a href="https://www.youtube.com/embed/J1BJE4lhXHw" target="_blank" class="label">Worser Bay - South</a>
-            <div class="fullscreen-btn" onclick="toggleFullScreen('pane3')" title="Fullscreen">
+            <div class="fullscreen-btn" onclick="toggleFullScreen('pane4')" title="Fullscreen">
                 <svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/></svg>
             </div>
             <iframe class="direct-feed" src="https://www.youtube.com/embed/J1BJE4lhXHw" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         
-        <div class="cam-container" id="pane4">
+        <div class="cam-container" id="pane5">
             <a href="https://www.youtube.com/embed/_nGsameml7g" target="_blank" class="label">Worser Bay - Ramp</a>
-            <div class="fullscreen-btn" onclick="toggleFullScreen('pane4')" title="Fullscreen">
+            <div class="fullscreen-btn" onclick="toggleFullScreen('pane5')" title="Fullscreen">
                 <svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/></svg>
             </div>
             <iframe class="direct-feed" src="https://www.youtube.com/embed/_nGsameml7g" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         
-        <div class="cam-container" id="pane5">
+        <div class="cam-container" id="pane6">
             <a href="https://www.youtube.com/embed/9iH0NG30slE" target="_blank" class="label">Worser Bay - North</a>
-            <div class="fullscreen-btn" onclick="toggleFullScreen('pane5')" title="Fullscreen">
+            <div class="fullscreen-btn" onclick="toggleFullScreen('pane6')" title="Fullscreen">
                 <svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/></svg>
             </div>
             <iframe class="direct-feed" src="https://www.youtube.com/embed/9iH0NG30slE" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         
-        <div class="cam-container" id="pane6">
+        <div class="cam-container" id="pane7">
             <a href="https://www.youtube.com/embed/fLBBFepYh3o" target="_blank" class="label">Eastbourne</a>
-            <div class="fullscreen-btn" onclick="toggleFullScreen('pane6')" title="Fullscreen">
+            <div class="fullscreen-btn" onclick="toggleFullScreen('pane7')" title="Fullscreen">
                 <svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/></svg>
             </div>
             <iframe class="direct-feed" src="https://www.youtube.com/embed/fLBBFepYh3o" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         
-        <div class="cam-container" id="pane7">
+        <div class="cam-container" id="pane8">
             <a href="https://www.youtube.com/embed/t0nYqriNf-w?autoplay=1&mute=1" target="_blank" class="label">Castlepoint</a>
-            <div class="fullscreen-btn" onclick="toggleFullScreen('pane7')" title="Fullscreen">
+            <div class="fullscreen-btn" onclick="toggleFullScreen('pane8')" title="Fullscreen">
                 <svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/></svg>
             </div>
             <iframe class="direct-feed" src="https://www.youtube.com/embed/t0nYqriNf-w?autoplay=1&mute=1" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         
-        <div class="cam-container" id="pane8">
+        <div class="cam-container" id="pane9">
             <a href="https://g3.ipcamlive.com/player/player.php?alias=64c0d6f04f46b" target="_blank" class="label">Cape Palliser</a>
-            <div class="fullscreen-btn" onclick="toggleFullScreen('pane8')" title="Fullscreen">
+            <div class="fullscreen-btn" onclick="toggleFullScreen('pane9')" title="Fullscreen">
                 <svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/></svg>
             </div>
             <iframe class="direct-feed" src="https://g3.ipcamlive.com/player/player.php?alias=64c0d6f04f46b" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         
-        <div class="cam-container" id="pane9">
+        <div class="cam-container" id="pane10">
             <a href="https://mynetwork.co.nz/Sites/Tora-martinborough.jpg" target="_blank" class="label">Tora Beach</a>
-            <div class="fullscreen-btn" onclick="toggleFullScreen('pane9')" title="Fullscreen">
+            <div class="fullscreen-btn" onclick="toggleFullScreen('pane10')" title="Fullscreen">
                 <svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/></svg>
             </div>
             <iframe class="direct-feed" src="https://mynetwork.co.nz/Sites/Tora-martinborough.jpg" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
